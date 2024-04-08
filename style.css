@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+  
+  .card-img{
+    border-radius: 30px;
+  }
+
+  .p-style{
+    color: #7D889E;
+    font-size: 1.5rem;
+  }
+   
+  .card-wrap {
+    float:left;
+    width:100%;
+    padding:5px;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 30px;
+  }
+  .card > div {
+    padding:0 1em;
+  }
+
+  @media (min-width: 300px) {
+    .card-wrap {
+      width:100%;
+    }
+    .card{
+        margin: 30px;
+    }
+  }
+
+  @media (min-width: 500px) {
+    .card-wrap {
+      width:50%;
+    }
+  }
+  @media (min-width: 720px) {
+    .card-wrap {
+      width:100%;
+    }
+  }
+  
+  
